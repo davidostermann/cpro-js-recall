@@ -1,135 +1,137 @@
-var selectElementsStartingWithA = function(array) {
+exports.selectElementsStartingWithA = function(array) {
+  const r = array.filter(item => item.charAt(0) == 'a')
+  return r
+}
+
+exports.selectElementsStartingWithVowel = function(array) {
+  return array.filter(item => ~'aeiouy'.indexOf(item.charAt(0)))
+}
+
+
+exports.removeNullElements = function(array) {
   return 'Write your method here';
 }
 
-var selectElementsStartingWithVowel = function(array) {
+exports.removeNullAndFalseElements = function(array) {
   return 'Write your method here';
 }
 
-var removeNullElements = function(array) {
+exports.reverseWordsInArray = function(array) {
   return 'Write your method here';
 }
 
-var removeNullAndFalseElements = function(array) {
+exports.everyPossiblePair = function(array) {
   return 'Write your method here';
 }
 
-var reverseWordsInArray = function(array) {
+exports.allElementsExceptFirstThree = function(array) {
   return 'Write your method here';
 }
 
-var everyPossiblePair = function(array) {
+exports.addElementToBeginning = function(array, element) {
   return 'Write your method here';
 }
 
-var allElementsExceptFirstThree = function(array) {
+exports.sortByLastLetter = function(array) {
   return 'Write your method here';
 }
 
-var addElementToBeginning = function(array, element) {
+exports.getFirstHalf = function(string) {
   return 'Write your method here';
 }
 
-var sortByLastLetter = function(array) {
+exports.makeNegative = function(number) {
   return 'Write your method here';
 }
 
-var getFirstHalf = function(string) {
+exports.numberOfPalindromes = function(array) {
   return 'Write your method here';
 }
 
-var makeNegative = function(number) {
+exports.shortestWord = function(array) {
   return 'Write your method here';
 }
 
-var numberOfPalindromes = function(array) {
+exports.longestWord = function(array) {
   return 'Write your method here';
 }
 
-var shortestWord = function(array) {
+exports.sumNumbers = function(array) {
   return 'Write your method here';
 }
 
-var longestWord = function(array) {
+exports.repeatElements = function(array) {
   return 'Write your method here';
 }
 
-var sumNumbers = function(array) {
+exports.stringToNumber = function(string) {
   return 'Write your method here';
 }
 
-var repeatElements = function(array) {
+exports.calculateAverage = function(array) {
   return 'Write your method here';
 }
 
-var stringToNumber = function(string) {
+exports.getElementsUntilGreaterThanFive = function(array) {
   return 'Write your method here';
 }
 
-var calculateAverage = function(array) {
+exports.convertArrayToObject = function(array) {
   return 'Write your method here';
 }
 
-var getElementsUntilGreaterThanFive = function(array) {
+exports.getAllLetters = function(array) {
   return 'Write your method here';
 }
 
-var convertArrayToObject = function(array) {
+exports.swapKeysAndValues = function(object) {
   return 'Write your method here';
 }
 
-var getAllLetters = function(array) {
+exports.sumKeysAndValues = function(object) {
   return 'Write your method here';
 }
 
-var swapKeysAndValues = function(object) {
+exports.removeCapitals = function(string) {
   return 'Write your method here';
 }
 
-var sumKeysAndValues = function(object) {
+exports.roundUp = function(number) {
   return 'Write your method here';
 }
 
-var removeCapitals = function(string) {
+exports.formatDateNicely = function(date) {
   return 'Write your method here';
 }
 
-var roundUp = function(number) {
+exports.getDomainName = function(string) {
   return 'Write your method here';
 }
 
-var formatDateNicely = function(date) {
+exports.titleize = function(string) {
   return 'Write your method here';
 }
 
-var getDomainName = function(string) {
+exports.checkForSpecialCharacters = function(string) {
   return 'Write your method here';
 }
 
-var titleize = function(string) {
+exports.squareRoot = function(number) {
   return 'Write your method here';
 }
 
-var checkForSpecialCharacters = function(string) {
+exports.factorial = function(number) {
   return 'Write your method here';
 }
 
-var squareRoot = function(number) {
+exports.findAnagrams = function(string) {
   return 'Write your method here';
 }
 
-var factorial = function(number) {
+exports.convertToCelsius = function(number) {
   return 'Write your method here';
 }
 
-var findAnagrams = function(string) {
-  return 'Write your method here';
-}
-
-var convertToCelsius = function(number) {
-  return 'Write your method here';
-}
-
-var letterPosition = function(array) {
+exports.letterPosition = function(array) {
   return 'Write your method here';
 }

@@ -1,6 +1,6 @@
 const q1  = require('../questions1')
 
-describe('javascript-Basecall', function() {
+xdescribe('javascript-Basecall', function() {
 
   // la fonction doit retourner une chaine de caractère
   it('return a string', function () {
