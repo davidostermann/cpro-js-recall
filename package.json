@@ -1,0 +1,27 @@
+{
+  "name": "cpro-js-recall",
+  "version": "1.0.0",
+  "description": "Inside you will find a collection of exercises to improve your Javascript.",
+  "main": "questions1.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidostermann/cpro-js-recall.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidostermann/cpro-js-recall/issues"
+  },
+  "homepage": "https://github.com/davidostermann/cpro-js-recall#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
+}

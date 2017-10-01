@@ -1,48 +1,48 @@
 
-var getString = function() {
+exports.getString = function() {
   return 'ecrire votre code ici';
 }
 
-var getNumber = function() {
+exports.getNumber = function() {
+  return 1;
+}
+
+exports.getBoolean = function() {
+  return false;
+}
+
+exports.getArray = function() {
   return 'ecrire votre code ici';
 }
 
-var getBoolean = function() {
+exports.getBonjourUppercase = function() {
   return 'ecrire votre code ici';
 }
 
-var getArray = function() {
+exports.get123String = function() {
   return 'ecrire votre code ici';
 }
 
-var getBonjourUppercase = function() {
+exports.getArrayWithRequiredItems = function() {
   return 'ecrire votre code ici';
 }
 
-var get123String = function() {
+exports.getArrayWith5Numbers = function() {
   return 'ecrire votre code ici';
 }
 
-var getArrayWithRequiredItems = function() {
+exports.getObjectWithRequiredKeys = function() {
   return 'ecrire votre code ici';
 }
 
-var getArrayWith5Numbers = function() {
+exports.getObjectWithRequiredKeys = function() {
   return 'ecrire votre code ici';
 }
 
-var getObjectWithRequiredKeys = function() {
+exports.getObjectWithArrayWith5Numbers = function() {
   return 'ecrire votre code ici';
 }
 
-var getObjectWithRequiredKeys = function() {
-  return 'ecrire votre code ici';
-}
-
-var getObjectWithArrayWith5Numbers = function() {
-  return 'ecrire votre code ici';
-}
-
-var getArrayWith3ObjectsWithSpecificFormat = function() {
+exports.getArrayWith3ObjectsWithSpecificFormat = function() {
   return 'ecrire votre code ici';
 }
