@@ -1,6 +1,6 @@
 const q = require('../questions2.js')
 
-xdescribe('javascript-Basecall', function() {
+describe('javascript-Basecall', function() {
 
   // la fonction doit retourner un nombre
   it('return the argument passed as the only parameter', function() {

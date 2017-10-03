@@ -12,7 +12,7 @@ describe('javascript-Recall', function() {
         expect(result).toEqual(['omar', 'idris', 'angela']);
     });
 
-    xit('removes null values from an array', function() {
+    it('removes null values from an array', function() {
         var result = q.removeNullElements(['a', 'b', null, null, false, 0]);
         expect(result).toEqual(['a', 'b', false, 0]);
     });
@@ -22,12 +22,12 @@ describe('javascript-Recall', function() {
         expect(result).toEqual(['a', 'b', 0]);
     });
 
-    xit('reverses the letters of each element in an array', function() {
+    it('reverses the letters of each element in an array', function() {
         var result = q.reverseWordsInArray(['dog', 'monkey', 'elephant', 'kayak']);
         expect(result).toEqual(['god', 'yeknom', 'tnahpele', 'kayak']);
     });
 
-    xit('makes every possible pairing of students', function() {
+    it('makes every possible pairing of students', function() {
         var result = q.everyPossiblePair(['Jon', 'Tyrion', 'Daenerys']);
         // sorted alphabetically
         expect(result).toEqual([
