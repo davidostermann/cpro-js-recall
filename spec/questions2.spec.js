@@ -8,12 +8,12 @@ xdescribe('javascript-Basecall', function() {
     expect(result).toEqual('bonjour');
   });
 
-  xit('return the argument passed as the second parameter', function() {
+  it('return the argument passed as the second parameter', function() {
     var result = q.getSecondArgument('bonjour', 'tout le monde');
     expect(result).toEqual('tout le monde');
   });
 
-  xit('return an array including both passed arguments', function() {
+  it('return an array including both passed arguments', function() {
     var result = q.getArgumentsArray(302, 404);
     expect(result.indexOf(302)).toBeGreaterThan(-1);
     expect(result.indexOf(404)).toBeGreaterThan(-1);
